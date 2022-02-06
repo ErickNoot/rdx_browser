@@ -8,24 +8,58 @@
     mc:Ignorable="d"
     Background="{StaticResource wbBackgraund}">
 
-    <Grid x:Name="baseGrid"> <!--  Base Grid  -->
+    <Grid x:Name="baseGrid" Margin="10,0">
+        <!--  Base Grid  -->
         <Grid.RowDefinitions>
-            <RowDefinition Height="20"/> <!--  Title Bar Row Definition  -->
-            <RowDefinition/>
+            <RowDefinition Height="10"/>
+            <!--  Title Bar Row Definition  -->
+            <RowDefinition Height="20"/>
+            <RowDefinition />
         </Grid.RowDefinitions>
-        
-        <Grid x:Name="TitleBarGrid"> <!-- title bar grid -->
+
+        <Grid x:Name="TitleBarGrid" Grid.Row="1">
+            <!-- title bar grid -->
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition/> <!-- Navigation Buttons Col Def -->
-                <ColumnDefinition Width="4*"/> <!-- Searf Bar Column Def -->
-                <ColumnDefinition/> <!-- Settigns Col Def -->
+                <ColumnDefinition Width="18*"/>
+                <ColumnDefinition Width="233*"/>
+                <!-- Navigation Buttons Col Def -->
+                <ColumnDefinition Width="502*"/>
+                <!-- Searf Bar Column Def -->
+                <ColumnDefinition Width="251*"/>
+                <!-- Settigns Col Def -->
             </Grid.ColumnDefinitions>
+
+            <!-- avançar e voltar -->
+
+            <StackPanel Orientation="Horizontal" Margin="10,0">
+
+                <Button x:Name="BackBtn" Margin="0,0,10,0">
+                    <Image Source="imagens/voltar.png"/>
+
+                </Button>
+
+                <Button x:Name="FrdBtn">
+
+                </Button>
+
+
+            </StackPanel>
+
+            <!-- buscador -->
+
+            <TextBox x:Name="SearchBar" Grid.Column="2" TextWrapping="NoWrap" PlaceholderText="Search..." Height="25" VerticalContentAlignment="Center" BorderThickness="0" Margin="0,0,0,-5"/>
             
+            <!-- configurações -->
+
+            <Button Content="Settings" Grid.Column="2">
+                
+            </Button>
+
         </Grid>
-        
+
     </Grid>
-    
-    
+
+
 
 </Page>

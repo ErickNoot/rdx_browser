@@ -30,13 +30,13 @@
     <AppXManifest Include="S:\projetos programação\rdx browser\rdx browser\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-06T00:01:42.930</Modified>
+      <Modified>2022-02-06T02:45:31.508</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="S:\projetos programação\rdx browser\rdx browser\bin\x86\Debug\rdx browser.exe">
       <PackagePath>entrypoint\rdx browser.exe</PackagePath>
-      <Modified>2022-02-06T00:01:37.106</Modified>
+      <Modified>2022-02-06T02:45:30.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,15 +86,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\projetos programação\rdx browser\rdx browser\bin\x86\Debug\rdx browser.xr.xml">
       <PackagePath>rdx browser.xr.xml</PackagePath>
-      <Modified>2022-02-06T00:01:36.793</Modified>
+      <Modified>2022-02-06T02:45:30.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\projetos programação\rdx browser\rdx browser\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-06T00:01:36.902</Modified>
+      <Modified>2022-02-06T02:45:30.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\projetos programação\rdx browser\rdx browser\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-06T00:01:36.902</Modified>
+      <Modified>2022-02-06T02:45:30.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\projetos programação\rdx browser\rdx browser\bin\x86\Debug\Core\rdx browser.exe">
       <PackagePath>rdx browser.exe</PackagePath>
-      <Modified>2022-02-06T00:01:42.910</Modified>
+      <Modified>2022-02-06T02:45:31.505</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
