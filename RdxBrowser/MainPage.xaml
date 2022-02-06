@@ -1,0 +1,80 @@
+﻿<Page
+    x:Class="RdxBrowser.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RdxBrowser"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{StaticResource wbBackground}">
+
+    <Grid x:Name="BaseGrid"> <!-- Base Grid -->
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="25"/> <!-- Title Bar Row Definion -->
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="TitleBarGrid" Grid.Row="1"> <!-- Title Bar Grid -->
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition/> <!-- Barra De Butoes -->
+                <ColumnDefinition Width="2*"/> <!-- Buscador -->
+                <ColumnDefinition/> <!-- Configurações -->
+
+            </Grid.ColumnDefinitions>
+            
+            <!-- Avançar Voltar -->
+
+            <StackPanel Orientation="Horizontal" Margin="10,0">
+
+                <Button x:Name="BackBtn" Margin="0,0,10,0" Background="{x:Null}" Click="BackBtn_Click" >
+                    <Image Source="imagens/voltar.png"/>
+
+                </Button>
+
+                <Button x:Name="FrdBtn" Background="{x:Null}" Click="FrdBtn_Click">
+                    <Image Source="imagens/avançar.png"/>
+                    
+                </Button>
+                
+            </StackPanel>
+            
+            <!-- Barra de Pesquisa -->
+
+            <TextBox x:Name="Buscador" Grid.Column="1" TextWrapping="NoWrap" PlaceholderText=" buscando..." Height="25" VerticalContentAlignment="Center" BorderThickness="0" KeyDown="Buscador_KeyDown"/>
+            
+            <!-- Configurações -->
+
+            <Button Content="settings" Grid.Column="2" HorizontalAlignment="Right" Margin="10,0">
+
+                <Button.Flyout>
+
+                    <MenuFlyout>
+
+                        <MenuFlyoutSubItem Text="settings">
+                            
+                            
+                            
+                        </MenuFlyoutSubItem>
+
+                    </MenuFlyout>
+                    
+                </Button.Flyout>
+                
+            </Button>
+
+        </Grid>
+        
+        <!-- WebView -->
+
+        <WebView x:Name="WebBrowser" Source="https://www.google.com" Grid.Row="2">
+            
+        </WebView>
+
+    </Grid>
+</Page>
