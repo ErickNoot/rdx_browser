@@ -30,13 +30,13 @@
     <AppXManifest Include="S:\projetos programação\RdxBrowser\RdxBrowser\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-06T17:47:27.892</Modified>
+      <Modified>2022-02-07T02:06:28.641</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\bin\x86\Debug\RdxBrowser.exe">
       <PackagePath>entrypoint\RdxBrowser.exe</PackagePath>
-      <Modified>2022-02-06T17:47:27.212</Modified>
+      <Modified>2022-02-07T02:06:25.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -98,11 +98,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-06T17:47:27.154</Modified>
+      <Modified>2022-02-07T02:06:24.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-06T17:47:27.155</Modified>
+      <Modified>2022-02-07T02:06:24.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,11 +110,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-06T17:18:08.506</Modified>
+      <Modified>2022-02-07T02:06:27.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\bin\x86\Debug\Core\RdxBrowser.exe">
       <PackagePath>RdxBrowser.exe</PackagePath>
-      <Modified>2022-02-06T17:47:27.889</Modified>
+      <Modified>2022-02-07T02:06:28.624</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

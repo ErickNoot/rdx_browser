@@ -25,6 +25,9 @@ namespace RdxBrowser
         public MainPage()
         {
             this.InitializeComponent();
+
+            DataAccess dataAccess = new DataAccess();
+            dataAccess.CreateSettingsFile();
         }
 
         private void BackBtn_Click(object sender, RoutedEventArgs e)

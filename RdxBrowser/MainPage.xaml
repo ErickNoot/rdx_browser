@@ -50,7 +50,7 @@
             
             <!-- Configurações -->
 
-            <Button Content="settings" Grid.Column="2" HorizontalAlignment="Right" Margin="10,0">
+            <Button x:Name="MenuFlyoutBtn" Grid.Column="2" HorizontalAlignment="Right" Margin="10,0" Background="{x:Null}" Foreground="{StaticResource wbGren}">
 
                 <Button.Flyout>
 
@@ -65,7 +65,9 @@
                     </MenuFlyout>
                     
                 </Button.Flyout>
-                
+
+                <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE700;" />
+
             </Button>
 
         </Grid>
