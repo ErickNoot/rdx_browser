@@ -34,11 +34,8 @@
     <AppxPackagedFile Include="S:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\imagens\avançar.png">
-      <PackagePath>imagens\avançar.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\imagens\voltar.png">
-      <PackagePath>imagens\voltar.png</PackagePath>
+    <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -67,9 +64,6 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\bin\x86\Debug\RdxBrowser.xr.xml">
       <PackagePath>RdxBrowser.xr.xml</PackagePath>
     </AppxPackagedFile>
@@ -78,6 +72,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\projetos programação\RdxBrowser\RdxBrowser\bin\x86\Debug\SettingsPage.xbf">
+      <PackagePath>SettingsPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="S:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

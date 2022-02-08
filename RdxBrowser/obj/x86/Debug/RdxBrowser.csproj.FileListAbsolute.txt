@@ -43,3 +43,8 @@ S:\projetos programação\RdxBrowser\RdxBrowser\obj\x86\Debug\qualifiers.txt.int
 S:\projetos programação\RdxBrowser\RdxBrowser\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 S:\projetos programação\RdxBrowser\RdxBrowser\obj\x86\Debug\ProjectArchitectures.txt
 S:\projetos programação\RdxBrowser\RdxBrowser\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424923200000000.json
+S:\projetos programação\RdxBrowser\RdxBrowser\bin\x86\Debug\SettingsPage.xbf
+S:\projetos programação\RdxBrowser\RdxBrowser\obj\x86\Debug\SettingsPage.g.i.cs
+S:\projetos programação\RdxBrowser\RdxBrowser\obj\x86\Debug\SettingsPage.g.cs
+S:\projetos programação\RdxBrowser\RdxBrowser\obj\x86\Debug\SettingsPage.xaml
+S:\projetos programação\RdxBrowser\RdxBrowser\obj\x86\Debug\SettingsPage.xbf

@@ -32,16 +32,26 @@
 
             <StackPanel Orientation="Horizontal" Margin="10,0">
 
-                <Button x:Name="BackBtn" Margin="0,0,10,0" Background="{x:Null}" Click="BackBtn_Click" >
-                    <Image Source="imagens/voltar.png"/>
+                <Button x:Name="BackBtn" Margin="0,0,10,0" Background="{x:Null}" Click="BackBtn_Click" Foreground="{StaticResource wbGren}" >
+                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE72B;"/>
 
                 </Button>
 
                 <Button x:Name="FrdBtn" Background="{x:Null}" Click="FrdBtn_Click">
-                    <Image Source="imagens/avançar.png"/>
+                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE72A;" Foreground="{StaticResource wbGren}"/>
+
+                </Button>
+
+                <Button x:Name="refreshBtn" Background="{x:Null}">
+                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE72C;" Foreground="{StaticResource wbGren}"/>
                     
                 </Button>
-                
+
+                <Button x:Name="homeBtn" Background="{x:Null}">
+                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xEA8A;" Foreground="{StaticResource wbGren}"/>
+
+                </Button>
+
             </StackPanel>
             
             <!-- Barra de Pesquisa -->

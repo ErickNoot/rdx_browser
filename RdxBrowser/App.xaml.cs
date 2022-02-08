@@ -5,8 +5,10 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
+using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -71,6 +73,22 @@ namespace RdxBrowser
                 // Verifique se a janela atual está ativa
                 Window.Current.Activate();
             }
+
+            var coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
+            coreTitleBar.ExtendViewIntoTitleBar = true;
+
+            var titleBar = ApplicationView.GetForCurrentView().TitleBar;
+
+            SolidColorBrush wbtBk = Application.Current.Resources["wbBackground"] as SolidColorBrush;
+            SolidColorBrush wbtGr = Application.Current.Resources["wbGren"] as SolidColorBrush;
+            SolidColorBrush wbtBl = Application.Current.Resources["wbBlack"] as SolidColorBrush;
+            SolidColorBrush wbtLGre = Application.Current.Resources["wblighterGren"] as SolidColorBrush;
+
+            titleBar.ButtonBackgroundColor = wbtBk.Color;
+            titleBar.ButtonForegroundColor = wbtGr.Color;
+            titleBar.ButtonHoverBackgroundColor = wbtLGre.Color;
+            titleBar.ButtonHoverForegroundColor = wbtBl.Color;
+
         }
 
         /// <summary>

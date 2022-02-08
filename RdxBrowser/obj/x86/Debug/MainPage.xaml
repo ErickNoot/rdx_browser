@@ -32,16 +32,26 @@
 
             <StackPanel Orientation="Horizontal" Margin="10,0">
 
-                <Button x:ConnectionId='6' x:Name="BackBtn" Margin="0,0,10,0" Background="{x:Null}"                       >
-                    <Image Source="imagens/voltar.png"/>
+                <Button x:ConnectionId='7' x:Name="BackBtn" Margin="0,0,10,0" Background="{x:Null}"                       Foreground="{StaticResource wbGren}" >
+                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE72B;"/>
 
                 </Button>
 
-                <Button x:ConnectionId='7' x:Name="FrdBtn" Background="{x:Null}"                     >
-                    <Image Source="imagens/avançar.png"/>
+                <Button x:ConnectionId='8' x:Name="FrdBtn" Background="{x:Null}"                     >
+                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE72A;" Foreground="{StaticResource wbGren}"/>
+
+                </Button>
+
+                <Button x:ConnectionId='9' x:Name="refreshBtn" Background="{x:Null}">
+                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE72C;" Foreground="{StaticResource wbGren}"/>
                     
                 </Button>
-                
+
+                <Button x:ConnectionId='10' x:Name="homeBtn" Background="{x:Null}">
+                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xEA8A;" Foreground="{StaticResource wbGren}"/>
+
+                </Button>
+
             </StackPanel>
             
             <!-- Barra de Pesquisa -->
@@ -50,7 +60,7 @@
             
             <!-- Configurações -->
 
-            <Button Content="settings" Grid.Column="2" HorizontalAlignment="Right" Margin="10,0">
+            <Button x:ConnectionId='6' x:Name="MenuFlyoutBtn" Grid.Column="2" HorizontalAlignment="Right" Margin="10,0" Background="{x:Null}" Foreground="{StaticResource wbGren}">
 
                 <Button.Flyout>
 
@@ -65,7 +75,9 @@
                     </MenuFlyout>
                     
                 </Button.Flyout>
-                
+
+                <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE700;" />
+
             </Button>
 
         </Grid>
