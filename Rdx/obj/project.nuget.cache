@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "io/6tG9FrVw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ErickD\\Documents\\GitHub\\rdx_browser\\Rdx\\Rdx.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ErickD\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.17\\microsoft.net.illink.tasks.8.0.17.nupkg.sha512",
+    "C:\\Users\\ErickD\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512"
+  ],
+  "logs": []
+}

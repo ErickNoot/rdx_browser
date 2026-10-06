@@ -1,0 +1,7 @@
+C:\Users\ErickD\Documents\GitHub\rdx_browser\Rdx\publish\rdx.pdb
+C:\Users\ErickD\Documents\GitHub\rdx_browser\Rdx\publish\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\ErickD\Documents\GitHub\rdx_browser\Rdx\publish\WebView2Loader.dll
+C:\Users\ErickD\Documents\GitHub\rdx_browser\Rdx\publish\Microsoft.Web.WebView2.Core.xml
+C:\Users\ErickD\Documents\GitHub\rdx_browser\Rdx\publish\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\ErickD\Documents\GitHub\rdx_browser\Rdx\publish\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\ErickD\Documents\GitHub\rdx_browser\Rdx\publish\rdx.exe
